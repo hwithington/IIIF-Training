@@ -1,0 +1,13 @@
+{
+  "id" : "https://hwithington.github.io/IIIF-Training/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in hwithington/IIIF-Training project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
+    "label" : "Mr. VVilliam Shakespeares: The Tragedie of Hamlet"
+  } ]
+}
