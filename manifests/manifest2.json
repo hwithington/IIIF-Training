@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://ad832257-82c6-4a9b-9115-638fb1d8cac7",
+	"@id": "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
 	"@type": "sc:Manifest",
 	"label": "Mr. William Shakespeares: The Tragedie of Hamlet",
 	"metadata": [
