@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://hwithington.github.io/IIIF-Training/annotations/4f6175f999c0d3ee5e6b1c37376b8111.json" ],
+  "@id" : "https://hwithington.github.io/IIIF-Training/annotations/collection.json",
+  "label" : "All annotations loaded in hwithington/IIIF-Training project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
