@@ -1,1050 +1,1581 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
-  "@type" : "sc:Manifest",
-  "label" : "Mr. VVilliam Shakespeares: The Tragedie of Hamlet",
-  "metadata" : [ {
-    "label" : {
-      "en" : [ "Full title" ]
-    },
-    "value" : {
-      "en" : [ "Mr. VVilliam Shakespeares comedies, histories, & tragedies. Published according to the true originall copies" ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://ad832257-82c6-4a9b-9115-638fb1d8cac7",
+	"@type": "sc:Manifest",
+	"label": "Mr. William Shakespeares: The Tragedie of Hamlet",
+	"metadata": [
+	{
+	  "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Mr. William Shakespeares comedies, histories, & tragedies. Published according to the true originall copies"]
+      }
+    },{
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["The British Library"]
+      }
     }
-  }, {
-    "label" : {
-      "en" : [ "Held by" ]
-    },
-    "value" : {
-      "en" : [ "The British Library" ]
-    }
-  } ],
-  "description" : [ {
-    "@value" : "The Tragedie of Hamlet section of William Shakespeares comedies, histories, & tragedies",
-    "@language" : "en"
-  } ],
-  "viewingHint" : "paged",
-  "license" : "https://creativecommons.org/licenses/by/4.0/",
-  "attribution" : "The British Library",
-  "sequences" : [ {
-    "@id" : "http://f3f8a95c-fe82-4a8f-abe6-59600071976a",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://aae88280-7b83-4f04-a948-498e64b7c000",
-      "@type" : "sc:Canvas",
-      "label" : "001",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://9a488b07-369d-4bdb-b9b3-eba963fe5000",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000001/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000001",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
+	],
+	"description": [
+		{
+			"@value": "The Tragedie of Hamlet section of William Shakespeares comedies, histories, & tragedies",
+			"@language": "en"
+		}
+	],
+	
+	"viewingHint": "paged",
+	
+	"license": "https://creativecommons.org/licenses/by/4.0/",
+	"attribution": "The British Library",
+	"sequences": [
+		{
+			"@id": "http://f3f8a95c-fe82-4a8f-abe6-59600071976a",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://aae88280-7b83-4f04-a948-498e64b7c000",
+					"@type": "sc:Canvas",
+					"label": "001",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9a488b07-369d-4bdb-b9b3-eba963fe5000",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000001",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://aae88280-7b83-4f04-a948-498e64b7c000"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://aae88280-7b83-4f04-a948-498e64b7cc60",
+					"@type": "sc:Canvas",
+					"label": "770",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9a488b07-369d-4bdb-b9b3-eba963fe5531",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000302/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000302",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://aae88280-7b83-4f04-a948-498e64b7cc60"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6afb7742-37a5-4e91-8c76-01260b36a557",
+					"@type": "sc:Canvas",
+					"label": "771",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://64aa0d71-446f-45f4-84d6-79d04fde4c04",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000303/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000303",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://6afb7742-37a5-4e91-8c76-01260b36a557"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://662a72b3-89e7-4d1d-ad46-950192503ab7",
+					"@type": "sc:Canvas",
+					"label": "772",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c178153e-7e3e-4879-926d-38794dc0b62d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000304/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000304",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://662a72b3-89e7-4d1d-ad46-950192503ab7"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f93bc184-9299-4399-867d-5c393214fbc9",
+					"@type": "sc:Canvas",
+					"label": "773",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c4154f27-e4db-4a7d-905d-c31ddc169e1c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000305/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000305",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://f93bc184-9299-4399-867d-5c393214fbc9"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1146afb0-fe8f-4b1b-a8de-d712a346d9f4",
+					"@type": "sc:Canvas",
+					"label": "774",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f79aabe4-98b1-481d-b94a-751bd42cd3e0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000306/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000306",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://1146afb0-fe8f-4b1b-a8de-d712a346d9f4"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5df4f1b6-9860-4542-9f88-dd4721c30a06",
+					"@type": "sc:Canvas",
+					"label": "775",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c4d15104-a4da-44e0-b0a3-83a1c4eb5682",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000307/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000307",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://5df4f1b6-9860-4542-9f88-dd4721c30a06"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://2f6fa698-3b6b-4be4-b97a-c9922582628f",
+					"@type": "sc:Canvas",
+					"label": "776",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ddf1b696-b76b-4057-8480-2d9e002b80bd",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000308/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000308",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://2f6fa698-3b6b-4be4-b97a-c9922582628f"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://35b42d37-d022-4fb3-9851-4322ec576dd4",
+					"@type": "sc:Canvas",
+					"label": "777",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://63d00981-ac91-4bd0-87fe-9f4d6872a155",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000309/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000309",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://35b42d37-d022-4fb3-9851-4322ec576dd4"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://955e7af2-cd52-4146-8bf5-fab9c7800d9d",
+					"@type": "sc:Canvas",
+					"label": "778",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d3ba9c95-f184-44b1-8cf1-863fd18ac386",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030a/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030a",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://955e7af2-cd52-4146-8bf5-fab9c7800d9d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://51f60899-63d0-4921-868f-c3913f9bbda8",
+					"@type": "sc:Canvas",
+					"label": "779",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e2013513-eca3-4612-bf1a-834a870fbbcf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030b",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://51f60899-63d0-4921-868f-c3913f9bbda8"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4c170755-b49f-4d61-bde5-a5cfd5ed0254",
+					"@type": "sc:Canvas",
+					"label": "780",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8a00541d-8e3d-42cc-855e-4dcb7ab7ce1a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030c",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://4c170755-b49f-4d61-bde5-a5cfd5ed0254"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e793913b-26dd-4d8d-8c51-9c013f8e5911",
+					"@type": "sc:Canvas",
+					"label": "781",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e2bc5932-dac7-4dc8-84cb-7e5028cd5b13",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030d/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030d",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://e793913b-26dd-4d8d-8c51-9c013f8e5911"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://359e43ac-a794-4eb1-b6cb-fb65fca23466",
+					"@type": "sc:Canvas",
+					"label": "782",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1189bf2b-9c9e-42cf-955e-09d886fbbf25",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030e/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030e",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://359e43ac-a794-4eb1-b6cb-fb65fca23466"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://314f02ca-3083-45c4-ba9a-b91c2cf846d3",
+					"@type": "sc:Canvas",
+					"label": "783",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://497f669e-3bf8-4d8f-8991-b748426155ef",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030f",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://314f02ca-3083-45c4-ba9a-b91c2cf846d3"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://2c8fa0ea-aa8a-4561-a3d8-9bc254b73d04",
+					"@type": "sc:Canvas",
+					"label": "784",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8003b9a3-c177-49e4-94d1-9965ced8e539",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000310/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000310",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://2c8fa0ea-aa8a-4561-a3d8-9bc254b73d04"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://45ed2af3-653e-415a-9d20-c319355bf7c3",
+					"@type": "sc:Canvas",
+					"label": "785",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://cd15a7f2-1629-41e3-9288-c4a0bc085689",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000311/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000311",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://45ed2af3-653e-415a-9d20-c319355bf7c3"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e7b35ba5-f60d-44ac-a95f-d46c261ac9ca",
+					"@type": "sc:Canvas",
+					"label": "786",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://058a2727-b868-485a-bdc2-9154bb70b123",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000312/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000312",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://e7b35ba5-f60d-44ac-a95f-d46c261ac9ca"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://cbd88ff3-7176-47bc-9cb6-68f8881c8301",
+					"@type": "sc:Canvas",
+					"label": "787",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://73f4570b-1d8c-4cbd-a134-f8ee2c23cfc5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000313/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000313",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://cbd88ff3-7176-47bc-9cb6-68f8881c8301"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://b52818c0-6f7a-4a8f-b856-4bfc56109f8c",
+					"@type": "sc:Canvas",
+					"label": "788",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0fcd6f24-39c4-4769-aaf8-32cfb04eec25",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000314/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000314",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://b52818c0-6f7a-4a8f-b856-4bfc56109f8c"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f6d6542f-1585-4b46-a197-aaff9e331e8c",
+					"@type": "sc:Canvas",
+					"label": "789",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b6d85501-de76-4333-b2b5-69a5c4945b8c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000315/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000315",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://f6d6542f-1585-4b46-a197-aaff9e331e8c"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fea2d264-d6bb-4796-8554-c94b6b9074ce",
+					"@type": "sc:Canvas",
+					"label": "790",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://69c8906b-99c8-4604-aa31-89478db65040",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000316/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000316",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://fea2d264-d6bb-4796-8554-c94b6b9074ce"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://495243bf-0fda-4915-8418-fdbe2e6165a9",
+					"@type": "sc:Canvas",
+					"label": "791",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7ee40bd1-9d12-441a-b368-ac6e2e4ebc8d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000317/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000317",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://495243bf-0fda-4915-8418-fdbe2e6165a9"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fd0697e2-15c6-436d-bab6-daa01fa391d5",
+					"@type": "sc:Canvas",
+					"label": "792",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://addf5fe1-8a5d-4055-af73-ef42ecc4ac48",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000318/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000318",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://fd0697e2-15c6-436d-bab6-daa01fa391d5"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d1e3348d-2426-46f4-b536-060bf419f0ea",
+					"@type": "sc:Canvas",
+					"label": "793",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7bd66d92-bf68-4c79-92f0-e129d610082c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000319/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000319",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://d1e3348d-2426-46f4-b536-060bf419f0ea"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6720da4d-3d1e-49f6-a3f6-6ed027e81594",
+					"@type": "sc:Canvas",
+					"label": "794",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6594acce-33f1-4f5a-a458-bd962a6ebb5e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031a/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031a",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://6720da4d-3d1e-49f6-a3f6-6ed027e81594"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://964fcdbb-d080-4b85-b9f2-6e331518b9df",
+					"@type": "sc:Canvas",
+					"label": "795",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d6780c4b-c070-429b-9658-a39647254afa",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031b",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://964fcdbb-d080-4b85-b9f2-6e331518b9df"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5b6e88c0-868b-44c8-8707-0f8ea7eb1320",
+					"@type": "sc:Canvas",
+					"label": "796",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://01ed111d-4dd9-4c53-9aa5-85ae287ebe59",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031c",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://5b6e88c0-868b-44c8-8707-0f8ea7eb1320"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f3db7b08-30e0-4219-bee6-1193db71dd6d",
+					"@type": "sc:Canvas",
+					"label": "797",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://28a0b607-b254-431a-98e9-7f6a2caf8361",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031d/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031d",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://f3db7b08-30e0-4219-bee6-1193db71dd6d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5a3d9f2c-8b6d-4986-a574-d75977eae6cc",
+					"@type": "sc:Canvas",
+					"label": "798",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://10b7d9db-c3d3-44b6-878b-34b982b99a0a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031e/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031e",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://5a3d9f2c-8b6d-4986-a574-d75977eae6cc"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://92cf754e-5845-4012-841f-0bd1045ed907",
+					"@type": "sc:Canvas",
+					"label": "799",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d7a26a27-16f3-412a-8b49-4d8f8725a3a2",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031f",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://92cf754e-5845-4012-841f-0bd1045ed907"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5",
+					"@type": "sc:Canvas",
+					"label": "800",
+					"height": 7230,
+					"width": 5428,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://495d720c-e228-4b78-8735-e049526aaf2e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000320/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000320",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 7230,
+								"width": 5428
+							},
+							"on": "http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	 "structures": [
+		{
+		  "@id": "http://example.org/iiif/book1/range/r0",
+		  "@type": "sc:Range",
+		  "label": "Intro",
+		  "viewingHint": "top",
+		  "ranges": [
+			"http://example.org/iiif/book1/range/r1",
+			"http://example.org/iiif/book1/range/r2",
+			"http://example.org/iiif/book1/range/r7"
+		  ]
+		},
+		{
+		  "@id": "http://example.org/iiif/book1/range/r1",
+		  "@type": "sc:Range",
+		  "label": "Act 1",
+		  "ranges": [
+			"http://example.org/iiif/book1/range/r3",
+			"http://example.org/iiif/book1/range/r4"
+		  ]
+		},
+		{
+		  "@id": "http://example.org/iiif/book1/range/r2",
+		  "@type": "sc:Range",
+		  "label": "Act 2",
+		  "ranges": [
+			"http://example.org/iiif/book1/range/r5",
+			"http://example.org/iiif/book1/range/r6"
+		  ]
+		},
+        {
+              "@id": "http://example.org/iiif/book1/range/r3",
+              "@type": "sc:Range",
+              "label": "Act 1 Scene 1",
+              "canvases": ["http://aae88280-7b83-4f04-a948-498e64b7cc60"]
         },
-        "on" : "http://aae88280-7b83-4f04-a948-498e64b7c000"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://aae88280-7b83-4f04-a948-498e64b7cc60",
-      "@type" : "sc:Canvas",
-      "label" : "770",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://9a488b07-369d-4bdb-b9b3-eba963fe5531",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000302/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000302",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
+		{
+              "@id": "http://example.org/iiif/book1/range/r4",
+              "@type": "sc:Range",
+              "label": "Act 1 Scene 2",
+              "canvases": ["http://6afb7742-37a5-4e91-8c76-01260b36a557"]
         },
-        "on" : "http://aae88280-7b83-4f04-a948-498e64b7cc60"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://6afb7742-37a5-4e91-8c76-01260b36a557",
-      "@type" : "sc:Canvas",
-      "label" : "771",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://64aa0d71-446f-45f4-84d6-79d04fde4c04",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000303/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000303",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
+		{
+              "@id": "http://example.org/iiif/book1/range/r5",
+              "@type": "sc:Range",
+              "label": "Act 2 Scene 1",
+              "canvases": ["http://35b42d37-d022-4fb3-9851-4322ec576dd4"]
         },
-        "on" : "http://6afb7742-37a5-4e91-8c76-01260b36a557"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://662a72b3-89e7-4d1d-ad46-950192503ab7",
-      "@type" : "sc:Canvas",
-      "label" : "772",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://c178153e-7e3e-4879-926d-38794dc0b62d",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000304/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000304",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
+		{
+              "@id": "http://example.org/iiif/book1/range/r6",
+              "@type": "sc:Range",
+              "label": "Act 2 Scene 2",
+              "canvases": ["http://955e7af2-cd52-4146-8bf5-fab9c7800d9d"]
         },
-        "on" : "http://662a72b3-89e7-4d1d-ad46-950192503ab7"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://f93bc184-9299-4399-867d-5c393214fbc9",
-      "@type" : "sc:Canvas",
-      "label" : "773",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://c4154f27-e4db-4a7d-905d-c31ddc169e1c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000305/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000305",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://f93bc184-9299-4399-867d-5c393214fbc9"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://1146afb0-fe8f-4b1b-a8de-d712a346d9f4",
-      "@type" : "sc:Canvas",
-      "label" : "774",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://f79aabe4-98b1-481d-b94a-751bd42cd3e0",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000306/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000306",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://1146afb0-fe8f-4b1b-a8de-d712a346d9f4"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://5df4f1b6-9860-4542-9f88-dd4721c30a06",
-      "@type" : "sc:Canvas",
-      "label" : "775",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://c4d15104-a4da-44e0-b0a3-83a1c4eb5682",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000307/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000307",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://5df4f1b6-9860-4542-9f88-dd4721c30a06"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://2f6fa698-3b6b-4be4-b97a-c9922582628f",
-      "@type" : "sc:Canvas",
-      "label" : "776",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://ddf1b696-b76b-4057-8480-2d9e002b80bd",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000308/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000308",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://2f6fa698-3b6b-4be4-b97a-c9922582628f"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://35b42d37-d022-4fb3-9851-4322ec576dd4",
-      "@type" : "sc:Canvas",
-      "label" : "777",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://63d00981-ac91-4bd0-87fe-9f4d6872a155",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000309/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000309",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://35b42d37-d022-4fb3-9851-4322ec576dd4"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://955e7af2-cd52-4146-8bf5-fab9c7800d9d",
-      "@type" : "sc:Canvas",
-      "label" : "778",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://d3ba9c95-f184-44b1-8cf1-863fd18ac386",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030a/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030a",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://955e7af2-cd52-4146-8bf5-fab9c7800d9d"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://51f60899-63d0-4921-868f-c3913f9bbda8",
-      "@type" : "sc:Canvas",
-      "label" : "779",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://e2013513-eca3-4612-bf1a-834a870fbbcf",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030b/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030b",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://51f60899-63d0-4921-868f-c3913f9bbda8"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://4c170755-b49f-4d61-bde5-a5cfd5ed0254",
-      "@type" : "sc:Canvas",
-      "label" : "780",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8a00541d-8e3d-42cc-855e-4dcb7ab7ce1a",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030c/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030c",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://4c170755-b49f-4d61-bde5-a5cfd5ed0254"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://e793913b-26dd-4d8d-8c51-9c013f8e5911",
-      "@type" : "sc:Canvas",
-      "label" : "781",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://e2bc5932-dac7-4dc8-84cb-7e5028cd5b13",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030d/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030d",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://e793913b-26dd-4d8d-8c51-9c013f8e5911"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://359e43ac-a794-4eb1-b6cb-fb65fca23466",
-      "@type" : "sc:Canvas",
-      "label" : "782",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://1189bf2b-9c9e-42cf-955e-09d886fbbf25",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030e/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030e",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://359e43ac-a794-4eb1-b6cb-fb65fca23466"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://314f02ca-3083-45c4-ba9a-b91c2cf846d3",
-      "@type" : "sc:Canvas",
-      "label" : "783",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://497f669e-3bf8-4d8f-8991-b748426155ef",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030f/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00030f",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://314f02ca-3083-45c4-ba9a-b91c2cf846d3"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://2c8fa0ea-aa8a-4561-a3d8-9bc254b73d04",
-      "@type" : "sc:Canvas",
-      "label" : "784",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8003b9a3-c177-49e4-94d1-9965ced8e539",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000310/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000310",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://2c8fa0ea-aa8a-4561-a3d8-9bc254b73d04"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://45ed2af3-653e-415a-9d20-c319355bf7c3",
-      "@type" : "sc:Canvas",
-      "label" : "785",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://cd15a7f2-1629-41e3-9288-c4a0bc085689",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000311/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000311",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://45ed2af3-653e-415a-9d20-c319355bf7c3"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://e7b35ba5-f60d-44ac-a95f-d46c261ac9ca",
-      "@type" : "sc:Canvas",
-      "label" : "786",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://058a2727-b868-485a-bdc2-9154bb70b123",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000312/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000312",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://e7b35ba5-f60d-44ac-a95f-d46c261ac9ca"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://cbd88ff3-7176-47bc-9cb6-68f8881c8301",
-      "@type" : "sc:Canvas",
-      "label" : "787",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://73f4570b-1d8c-4cbd-a134-f8ee2c23cfc5",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000313/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000313",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://cbd88ff3-7176-47bc-9cb6-68f8881c8301"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://b52818c0-6f7a-4a8f-b856-4bfc56109f8c",
-      "@type" : "sc:Canvas",
-      "label" : "788",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://0fcd6f24-39c4-4769-aaf8-32cfb04eec25",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000314/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000314",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://b52818c0-6f7a-4a8f-b856-4bfc56109f8c"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://f6d6542f-1585-4b46-a197-aaff9e331e8c",
-      "@type" : "sc:Canvas",
-      "label" : "789",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://b6d85501-de76-4333-b2b5-69a5c4945b8c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000315/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000315",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://f6d6542f-1585-4b46-a197-aaff9e331e8c"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://fea2d264-d6bb-4796-8554-c94b6b9074ce",
-      "@type" : "sc:Canvas",
-      "label" : "790",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://69c8906b-99c8-4604-aa31-89478db65040",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000316/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000316",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://fea2d264-d6bb-4796-8554-c94b6b9074ce"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://495243bf-0fda-4915-8418-fdbe2e6165a9",
-      "@type" : "sc:Canvas",
-      "label" : "791",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://7ee40bd1-9d12-441a-b368-ac6e2e4ebc8d",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000317/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000317",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://495243bf-0fda-4915-8418-fdbe2e6165a9"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://fd0697e2-15c6-436d-bab6-daa01fa391d5",
-      "@type" : "sc:Canvas",
-      "label" : "792",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://addf5fe1-8a5d-4055-af73-ef42ecc4ac48",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000318/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000318",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://fd0697e2-15c6-436d-bab6-daa01fa391d5"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://d1e3348d-2426-46f4-b536-060bf419f0ea",
-      "@type" : "sc:Canvas",
-      "label" : "793",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://7bd66d92-bf68-4c79-92f0-e129d610082c",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000319/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000319",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://d1e3348d-2426-46f4-b536-060bf419f0ea"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://6720da4d-3d1e-49f6-a3f6-6ed027e81594",
-      "@type" : "sc:Canvas",
-      "label" : "794",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://6594acce-33f1-4f5a-a458-bd962a6ebb5e",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031a/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031a",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://6720da4d-3d1e-49f6-a3f6-6ed027e81594"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://964fcdbb-d080-4b85-b9f2-6e331518b9df",
-      "@type" : "sc:Canvas",
-      "label" : "795",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://d6780c4b-c070-429b-9658-a39647254afa",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031b/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031b",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://964fcdbb-d080-4b85-b9f2-6e331518b9df"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://5b6e88c0-868b-44c8-8707-0f8ea7eb1320",
-      "@type" : "sc:Canvas",
-      "label" : "796",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://01ed111d-4dd9-4c53-9aa5-85ae287ebe59",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031c/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031c",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://5b6e88c0-868b-44c8-8707-0f8ea7eb1320"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://f3db7b08-30e0-4219-bee6-1193db71dd6d",
-      "@type" : "sc:Canvas",
-      "label" : "797",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://28a0b607-b254-431a-98e9-7f6a2caf8361",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031d/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031d",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://f3db7b08-30e0-4219-bee6-1193db71dd6d"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://5a3d9f2c-8b6d-4986-a574-d75977eae6cc",
-      "@type" : "sc:Canvas",
-      "label" : "798",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://10b7d9db-c3d3-44b6-878b-34b982b99a0a",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031e/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031e",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://5a3d9f2c-8b6d-4986-a574-d75977eae6cc"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://92cf754e-5845-4012-841f-0bd1045ed907",
-      "@type" : "sc:Canvas",
-      "label" : "799",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://d7a26a27-16f3-412a-8b49-4d8f8725a3a2",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031f/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x00031f",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://92cf754e-5845-4012-841f-0bd1045ed907"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5",
-      "@type" : "sc:Canvas",
-      "label" : "800",
-      "height" : 7230,
-      "width" : 5428,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://495d720c-e228-4b78-8735-e049526aaf2e",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000320/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056901229.0x000320",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
-              "maxHeight" : 2000,
-              "maxWidth" : 2000,
-              "qualities" : [ "gray", "color", "bitonal" ],
-              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
-            } ]
-          },
-          "height" : 7230,
-          "width" : 5428
-        },
-        "on" : "http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ {
-    "@id" : "http://example.org/iiif/book1/range/r0",
-    "@type" : "sc:Range",
-    "label" : "Front Cover",
-    "canvases" : [ "http://aae88280-7b83-4f04-a948-498e64b7c000" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/r1",
-    "@type" : "sc:Range",
-    "label" : "Act 1",
-    "canvases" : [ "http://aae88280-7b83-4f04-a948-498e64b7cc60" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/r2",
-    "@type" : "sc:Range",
-    "label" : "Act 2",
-    "canvases" : [ "http://35b42d37-d022-4fb3-9851-4322ec576dd4" ]
-  }, {
-    "@id" : "http://example.org/iiif/book1/range/r3",
-    "@type" : "sc:Range",
-    "label" : "Finis",
-    "canvases" : [ "http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5" ]
-  } ]
+		{
+              "@id": "http://example.org/iiif/book1/range/r7",
+              "@type": "sc:Range",
+              "label": "Finis",
+              "canvases": ["http://ea6b0d1c-2501-4435-82e7-d0fecb1ef8e5"]
+        }
+    ]
 }
