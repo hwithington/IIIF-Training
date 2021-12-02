@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
     "label" : "Mr. VVilliam Shakespeares: The Tragedie of Hamlet"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
+    "label" : "Mr. William Shakespeares: The Tragedie of Hamlet"
   } ]
 }
