@@ -1,0 +1,43 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Quote",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Quote</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "quote",
+      "@type" : "oa:Tag",
+      "chars" : "quote"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/43050005",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2021-12-02T16:40:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1638463247812",
+    "dcterms:modified" : "2021-12-02T16:40:56",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=495,2103,1062,406"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M494.94597,2103.26263h530.79506v0h530.79506v203.13065v203.13065h-530.79506h-530.79506v-203.13065z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0,1],&quot;editable&quot;:true}\" id=\"rectangle_58ee89b7-f3a9-4e98-8397-c4baef10d673\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#0000ff\" stroke-width=\"25.53229\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://51f60899-63d0-4921-868f-c3913f9bbda8"
+    } ]
+  } ],
+  "@id" : "https://hwithington.github.io/IIIF-Training/annotations/4f6175f999c0d3ee5e6b1c37376b8111.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
