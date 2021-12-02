@@ -1,0 +1,47 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Act2",
+      "@type" : "oa:Tag",
+      "chars" : "Act2"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Scene2",
+      "@type" : "oa:Tag",
+      "chars" : "Scene2"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Act 2 Scene 2",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Act 2 Scene 2</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/43050005",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2021-12-02T16:38:41",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1638463121555",
+    "dcterms:modified" : "2021-12-02T16:38:41",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1543,2247,803,269"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1543.00176,2247.05097h401.25483v0h401.25483v134.41828v134.41828h-401.25483h-401.25483v-134.41828z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4e13769c-8480-4f36-ba7a-a628da942a73\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://955e7af2-cd52-4146-8bf5-fab9c7800d9d"
+    } ]
+  } ],
+  "@id" : "https://hwithington.github.io/IIIF-Training/annotations/8bf6eb715afd0cafe46141a68d99d333.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
