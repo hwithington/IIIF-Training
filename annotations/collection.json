@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://hwithington.github.io/IIIF-Training/annotations/4f6175f999c0d3ee5e6b1c37376b8111.json", "https://hwithington.github.io/IIIF-Training/annotations/8bf6eb715afd0cafe46141a68d99d333.json" ],
+  "otherContent" : [ "https://hwithington.github.io/IIIF-Training/annotations/4f6175f999c0d3ee5e6b1c37376b8111.json", "https://hwithington.github.io/IIIF-Training/annotations/8bf6eb715afd0cafe46141a68d99d333.json", "https://hwithington.github.io/IIIF-Training/annotations/28a5ba96fdf6c11325e84d1d38c3d43f.json" ],
   "@id" : "https://hwithington.github.io/IIIF-Training/annotations/collection.json",
   "label" : "All annotations loaded in hwithington/IIIF-Training project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
