@@ -6,6 +6,10 @@
       "@type" : "oa:Tag",
       "chars" : "Act1"
     }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Scene3",
+      "@type" : "oa:Tag",
+      "chars" : "Scene3"
+    }, {
       "http://dev.llgc.org.uk/sas/full_text" : "Act1Scene3",
       "@type" : "dctypes:Text",
       "format" : "text/html",
