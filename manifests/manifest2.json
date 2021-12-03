@@ -3,6 +3,11 @@
 	"@id": "https://hwithington.github.io/IIIF-Training/manifests/manifest2.json",
 	"@type": "sc:Manifest",
 	"label": "Mr. William Shakespeares: The Tragedie of Hamlet",
+	"service": {
+    		"profile": "http://iiif.io/api/search/0/search",
+    		"@id": "https://dev.gdmrdigital.com/search-api/1245635613/43050005/13dc1b3fa281cf6ddee321cd44e05ab0/search",
+    		"@context": "http://iiif.io/api/search/0/context.json"
+	},
 	"metadata": [
 	{
 	  "label" : {
