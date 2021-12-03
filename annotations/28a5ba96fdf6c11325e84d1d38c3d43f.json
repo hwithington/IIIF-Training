@@ -6,10 +6,10 @@
       "@type" : "oa:Tag",
       "chars" : "Act1"
     }, {
-      "http://dev.llgc.org.uk/sas/full_text" : "Act 1 Scene 2",
+      "http://dev.llgc.org.uk/sas/full_text" : "Act1Scene2",
       "@type" : "dctypes:Text",
       "format" : "text/html",
-      "chars" : "<p>Act 1 Scene 2</p>"
+      "chars" : "<p>Act1Scene2</p>"
     } ],
     "@type" : "oa:Annotation",
     "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/43050005",
